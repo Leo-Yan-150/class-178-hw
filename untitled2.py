@@ -21,7 +21,7 @@ class game:
         
 gaem = game()
 
-btn=Button(root,text="Start",command=gaem.updateGame())
+btn=Button(root,text="Start",command=gaem.updateGame)
 btn.place(relx=0.5,rely=0.7,anchor=CENTER)
     
 root.mainloop()
